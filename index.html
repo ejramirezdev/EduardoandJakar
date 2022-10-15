@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      #main-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+      }
+      #main-doc {
+        width: 70%;
+      }
+      #navbar {
+        width: 30%;
+      }
+
+      @media (min-width: 768px) {
+        #main-body {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          gap: 10px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <nav id="navbar">
+      <header>documentation on programming languages</header>
+      <a href="#javascript" class="nav-link">javascript</a>
+      <a href="#ruby" class="nav-link">ruby</a>
+      <a href="#java" class="nav-link">java</a>
+      <a href="#python" class="nav-link">python</a>
+      <a href="#reactjs" class="nav-link">reactjs</a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="javascript">
+        <header>javascript</header>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <code> hello microverse </code>
+        <ul>
+          <li>ruby on rails</li>
+          <li>react js</li>
+        </ul>
+      </section>
+      <section class="main-section" id="ruby">
+        <header>ruby</header>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <code> hello microverse </code>
+        <ul>
+          <li>ruby on rails</li>
+          <li>react js</li>
+        </ul>
+      </section>
+      <!-- 👇👇👇 -->
+    </main>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
